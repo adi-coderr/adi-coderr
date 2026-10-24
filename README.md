@@ -22,5 +22,12 @@ Here are some ideas to get you started:
 > _Auto-updated every 6 hours via GitHub Actions_
 
 <!-- PR-STATS:START -->
-_Waiting for first update... Run the workflow manually or wait for the next scheduled run!_ 🕐
+| Repository | Merged 🟣 | Open 🟢 |
+|:-----------|----------:|--------:|
+| [kptdev/kpt](https://github.com/kptdev/kpt) | 6 | 2 |
+| [mne-tools/mne-python](https://github.com/mne-tools/mne-python) | 2 | 0 |
+| [ArduPilot/MethodicConfigurator](https://github.com/ArduPilot/MethodicConfigurator) | 1 | 0 |
+| [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 0 | 1 |
+| [MoganLab/mogan](https://github.com/MoganLab/mogan) | 0 | 1 |
+| **Total** | **9** | **4** |
 <!-- PR-STATS:END -->
