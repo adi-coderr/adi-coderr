@@ -37,18 +37,19 @@ def gh_request(url):
         return []
 
 
-def fetch_all_pages(base_url):
-    """Paginate through all results from a GitHub API endpoint."""
+def fetch_all_search_results(query):
+    """Paginate through all results from the GitHub Search API."""
     results = []
     page = 1
     while True:
-        sep = "&" if "?" in base_url else "?"
-        url = f"{base_url}{sep}page={page}&per_page=100"
+        url = f"{GITHUB_API}/search/issues?q={query}&page={page}&per_page=100"
         data = gh_request(url)
-        if not data:
+        if not data or not isinstance(data, dict):
             break
-        results.extend(data)
-        if len(data) < 100:
+        items = data.get("items", [])
+        results.extend(items)
+        total = data.get("total_count", 0)
+        if len(results) >= total or len(items) < 100:
             break
         page += 1
     return results
@@ -62,12 +63,7 @@ def get_pr_stats(username):
     stats = {}
 
     # Fetch merged PRs
-    merged_prs = fetch_all_pages(
-        f"{GITHUB_API}/search/issues?q=type:pr+author:{username}+is:merged"
-    )
-    # search/issues returns {"items": [...]}
-    if isinstance(merged_prs, dict):
-        merged_prs = merged_prs.get("items", [])
+    merged_prs = fetch_all_search_results(f"type:pr+author:{username}+is:merged")
 
     for pr in merged_prs:
         repo_url = pr.get("repository_url", "")
@@ -78,11 +74,7 @@ def get_pr_stats(username):
         stats[repo_name]["merged"] += 1
 
     # Fetch open PRs
-    open_prs = fetch_all_pages(
-        f"{GITHUB_API}/search/issues?q=type:pr+author:{username}+is:open"
-    )
-    if isinstance(open_prs, dict):
-        open_prs = open_prs.get("items", [])
+    open_prs = fetch_all_search_results(f"type:pr+author:{username}+is:open")
 
     for pr in open_prs:
         repo_url = pr.get("repository_url", "")
