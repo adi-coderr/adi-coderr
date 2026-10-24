@@ -19,8 +19,6 @@ Here are some ideas to get you started:
 
 ### 📊 My Pull Request Stats
 
-> _Auto-updated every 6 hours via GitHub Actions_
-
 <!-- PR-STATS:START -->
 | Repository | Merged 🟣 | Open 🟢 |
 |:-----------|----------:|--------:|
