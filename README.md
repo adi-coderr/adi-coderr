@@ -22,10 +22,8 @@ Here are some ideas to get you started:
 <!-- PR-STATS:START -->
 | Repository | Merged 🟣 | Open 🟢 |
 |:-----------|----------:|--------:|
-| [kptdev/kpt](https://github.com/kptdev/kpt) | 6 | 2 |
-| [mne-tools/mne-python](https://github.com/mne-tools/mne-python) | 2 | 0 |
-| [ArduPilot/MethodicConfigurator](https://github.com/ArduPilot/MethodicConfigurator) | 1 | 0 |
+| [kptdev/kpt](https://github.com/kptdev/kpt) | 0 | 2 |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 0 | 1 |
 | [MoganLab/mogan](https://github.com/MoganLab/mogan) | 0 | 1 |
-| **Total** | **9** | **4** |
+| **Total** | **0** | **4** |
 <!-- PR-STATS:END -->
