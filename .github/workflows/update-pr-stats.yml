@@ -24,7 +24,7 @@ jobs:
 
       - name: Run PR stats script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: python .github/scripts/update-pr-stats.py
