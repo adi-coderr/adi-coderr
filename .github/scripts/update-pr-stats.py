@@ -12,7 +12,7 @@ import urllib.error
 
 GITHUB_API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-USERNAME = os.environ.get("GITHUB_USERNAME", "")
+USERNAME = os.environ.get("GITHUB_USERNAME", "") or "adi-coderr"
 
 HEADERS = {
     "Accept": "application/vnd.github+json",
