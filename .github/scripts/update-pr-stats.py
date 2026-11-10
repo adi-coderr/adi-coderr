@@ -35,6 +35,9 @@ def gh_request(url):
     except urllib.error.HTTPError as e:
         print(f"Error fetching {url}: {e.code} {e.reason}")
         return []
+    except urllib.error.URLError as e:
+        print(f"Network error fetching {url}: {e.reason}")
+        return []
 
 
 def fetch_all_search_results(query):
@@ -124,12 +127,12 @@ def build_table(stats, username=""):
     total_open = sum(c["open"] for c in stats.values())
 
     total_merged_cell = (
-        f"[{total_merged}](https://github.com/pulls?q=is:pr{user_query}+is:merged)"
+        f"[{total_merged}](https://github.com/search?q=is:pr{user_query}+is:merged&type=pullrequests)"
         if total_merged > 0
         else "0"
     )
     total_open_cell = (
-        f"[{total_open}](https://github.com/pulls?q=is:pr{user_query}+is:open)"
+        f"[{total_open}](https://github.com/search?q=is:pr{user_query}+is:open&type=pullrequests)"
         if total_open > 0
         else "0"
     )
