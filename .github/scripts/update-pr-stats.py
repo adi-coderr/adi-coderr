@@ -86,7 +86,7 @@ def get_pr_stats(username):
     return stats
 
 
-def build_table(stats):
+def build_table(stats, username=""):
     """Build a markdown table from the PR stats dict."""
     if not stats:
         return "_No pull requests found yet. Start contributing!_ 🚀\n"
@@ -100,14 +100,40 @@ def build_table(stats):
     lines.append("| Repository | Merged 🟣 | Open 🟢 |")
     lines.append("|:-----------|----------:|--------:|")
 
+    user_query = f"+author:{username}" if username else ""
+
     for repo, counts in sorted_repos:
         repo_link = f"[{repo}](https://github.com/{repo})"
-        lines.append(f"| {repo_link} | {counts['merged']} | {counts['open']} |")
+        merged_count = counts["merged"]
+        open_count = counts["open"]
+
+        merged_cell = (
+            f"[{merged_count}](https://github.com/{repo}/pulls?q=is:pr{user_query}+is:merged)"
+            if merged_count > 0
+            else "0"
+        )
+        open_cell = (
+            f"[{open_count}](https://github.com/{repo}/pulls?q=is:pr{user_query}+is:open)"
+            if open_count > 0
+            else "0"
+        )
+        lines.append(f"| {repo_link} | {merged_cell} | {open_cell} |")
 
     # Summary row
     total_merged = sum(c["merged"] for c in stats.values())
     total_open = sum(c["open"] for c in stats.values())
-    lines.append(f"| **Total** | **{total_merged}** | **{total_open}** |")
+
+    total_merged_cell = (
+        f"[{total_merged}](https://github.com/pulls?q=is:pr{user_query}+is:merged)"
+        if total_merged > 0
+        else "0"
+    )
+    total_open_cell = (
+        f"[{total_open}](https://github.com/pulls?q=is:pr{user_query}+is:open)"
+        if total_open > 0
+        else "0"
+    )
+    lines.append(f"| **Total** | **{total_merged_cell}** | **{total_open_cell}** |")
 
     return "\n".join(lines) + "\n"
 
@@ -148,7 +174,7 @@ def main():
     stats = get_pr_stats(USERNAME)
     print(f"   Found PRs across {len(stats)} repositories.")
 
-    table = build_table(stats)
+    table = build_table(stats, USERNAME)
     print("\nGenerated table:\n")
     print(table)
 
