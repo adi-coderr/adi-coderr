@@ -31,7 +31,7 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,go,cpp,c,bash,docker,kubernetes,linux,git,githubactions,vscode&theme=dark" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=python,go,cpp,c,bash,pytorch,docker,kubernetes,linux,git,githubactions,vscode&theme=dark" alt="Tech Stack" />
   </a>
 </div>
 
@@ -43,6 +43,16 @@
 - ☸️ **[kpt](https://github.com/kptdev/kpt)** — Kubernetes packaging and declarative configuration management tool.
 - 🧠 **[MNE-Python](https://github.com/mne-tools/mne-python)** — Community-driven Python package for exploring and analyzing neurophysiological data.
 - 📝 **[Mogan Research](https://github.com/MoganLab/mogan)** — Scientific publication and document editing platform.
+
+---
+
+### 💡 Featured Personal Projects
+
+| Project | Description | Tech Stack |
+|:---|:---|:---|
+| 🧪 **[VirtualCLab-Neural](https://github.com/adi-coderr/VirtualCLab-Neural)** | AI-assisted virtual chemistry lab with reaction analysis & stoichiometry engine | `Python` `PyTorch` `Deep Learning` |
+| 👁️ **[Integritas](https://github.com/adi-coderr/Integritas)** | Real-time concrete pavement crack segmentation & live inspection studio | `PyTorch` `UNet` `VGG-16` `CV` |
+| 📡 **[KshirTrack](https://github.com/adi-coderr/KshirTrack)** | Real-time IoT cold-chain preservation & quality telemetry for smart chilling cans | `ESP32` `C++` `IoT` `Hardware` |
 
 ---
 
