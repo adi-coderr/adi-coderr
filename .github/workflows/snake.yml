@@ -28,17 +28,17 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=#F47216&color_dots=#ebedf0,#a8e6c1,#60cf8f,#25b86a,#00A650
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F47216&color_dots=#161b22,#004d25,#007338,#008d44,#00A650
 
-      - name: Slow down snake animation to half speed
+      - name: Slow down snake animation (quarter of original speed)
         run: |
           python3 -c "
           import re, glob
           for path in glob.glob('dist/*.svg'):
               with open(path, 'r', encoding='utf-8') as f:
                   content = f.read()
-              new_content = re.sub(r'(\d+)ms', lambda m: f'{int(m.group(1)) * 2}ms', content)
+              new_content = re.sub(r'(\d+)ms', lambda m: f'{int(m.group(1)) * 4}ms', content)
               with open(path, 'w', encoding='utf-8') as f:
                   f.write(new_content)
-          print('Snake speed slowed to half speed successfully.')
+          print('Snake speed slowed successfully.')
           "
 
       - name: Push to output branch
