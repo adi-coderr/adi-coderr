@@ -165,7 +165,7 @@ def update_readme(table_content):
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-    print("✅ README.md updated successfully!")
+    print("README.md updated successfully!")
 
 
 def main():
@@ -173,7 +173,7 @@ def main():
         print("❌ GITHUB_USERNAME not set.")
         return
 
-    print(f"📊 Fetching PR stats for @{USERNAME}...")
+    print(f"Fetching PR stats for @{USERNAME}...")
     stats = get_pr_stats(USERNAME)
     print(f"   Found PRs across {len(stats)} repositories.")
 
