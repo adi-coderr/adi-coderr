@@ -62,14 +62,14 @@
 ### GitHub Activity & Streaks
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=adi-coderr&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=adi-coderr&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=adi-coderr&show_icons=true&theme=tokyonight&bg_color=000000&hide_border=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=adi-coderr&layout=compact&theme=tokyonight&bg_color=000000&hide_border=true" width="48%" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=adi-coderr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=adi-coderr&theme=tokyonight&background=000000&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
