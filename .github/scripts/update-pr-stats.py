@@ -92,7 +92,7 @@ def get_pr_stats(username):
 def build_table(stats, username=""):
     """Build a markdown table from the PR stats dict."""
     if not stats:
-        return "_No pull requests found yet. Start contributing!_ 🚀\n"
+        return "_No pull requests found yet. Start contributing!_\n"
 
     # Sort repos: most total PRs first
     sorted_repos = sorted(
@@ -100,8 +100,8 @@ def build_table(stats, username=""):
     )
 
     lines = []
-    lines.append("| Repository | Merged 🟣 | Open 🟢 |")
-    lines.append("|:-----------|----------:|--------:|")
+    lines.append("| Repository | Merged | Open |")
+    lines.append("|:-----------|-------:|-----:|")
 
     user_query = f"+author:{username}" if username else ""
 
