@@ -93,9 +93,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake-dark.svg?v=slow">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake.svg?v=slow">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake.svg?v=slow">
   </picture>
 </div>
 
