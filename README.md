@@ -77,18 +77,6 @@ Software developer and open-source contributor focused on systems programming, a
 
 ---
 
-### Contribution Graph
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake-dark.svg?v=slow">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake.svg?v=slow">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/adi-coderr/adi-coderr/output/github-contribution-grid-snake.svg?v=slow">
-  </picture>
-</div>
-
----
-
 <div align="center">
   <p><i>"Always open to collaborating on innovative open-source tools, robotics, and ML systems."</i></p>
   <p><b>Let's build something awesome together!</b></p>
