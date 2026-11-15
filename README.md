@@ -12,21 +12,11 @@
 
 ### About Me
 
-- **Focus**: Open source contributions, systems engineering, and scalable developer tooling.
-- **Interests**: Robotics & Autonomous Systems ([ArduPilot](https://github.com/ArduPilot/ardupilot)), Cloud-Native & Kubernetes Tools ([kpt](https://github.com/kptdev/kpt)), and Scientific Computing ([MNE-Python](https://github.com/mne-tools/mne-python)).
-- **Currently exploring**: Advanced DevOps pipelines, distributed systems, and modern C++ / Python architectures.
-- **Ask me about**: Open-source workflows, Git best practices, and automation scripting.
-- **Fun fact**: Constantly optimizing workflows and turning repetitive tasks into automated GitHub Actions!
+Software developer and open-source contributor focused on systems programming, autonomous robotics, and developer tooling.
 
-<details>
-  <summary><b>Dev Environment & Hardware</b></summary>
-  <br/>
-  
-  - **OS**: macOS (Apple Silicon) & Linux (Ubuntu / Debian)
-  - **Editor & Shell**: VS Code (Tokyo Night) with Zsh
-  - **Hardware & Embedded**: ESP32, STM32, ArduPilot flight controllers & IoT sensors
-  - **Fuel**: Coffee & clean git commits
-</details>
+- **Autonomous Systems & Robotics**: Contributing to flight control and energy management (`AP_TECS`) in [ArduPilot](https://github.com/ArduPilot/ardupilot), along with embedded hardware prototyping on ESP32/STM32 platforms.
+- **Cloud-Native & Tooling**: Enhancing Kubernetes configuration and package management in [kpt](https://github.com/kptdev/kpt), alongside workflow automation and CI/CD pipelines.
+- **Applied AI & Scientific Computing**: Developing computer vision inspection models with PyTorch and contributing to neurophysiological data tools in [MNE-Python](https://github.com/mne-tools/mne-python).
 
 ---
 
@@ -40,22 +30,20 @@
 
 ---
 
-### Key Open Source Contributions
+### Open Source Contributions
 
-- **[ArduPilot](https://github.com/ArduPilot/ardupilot)** — World-leading open-source autopilot software system for autonomous drones, rovers, and planes.
-- **[kpt](https://github.com/kptdev/kpt)** — Kubernetes packaging and declarative configuration management tool.
-- **[MNE-Python](https://github.com/mne-tools/mne-python)** — Community-driven Python package for exploring and analyzing neurophysiological data.
+- **[ArduPilot](https://github.com/ArduPilot/ardupilot)** — Autopilot software for autonomous drones and planes. Contributing to the Total Energy Control System (`AP_TECS`) and navigation subroutines.
+- **[kpt](https://github.com/kptdev/kpt)** — Kubernetes declarative configuration management tool. Contributed library-level registry credential support.
+- **[MNE-Python](https://github.com/mne-tools/mne-python)** — Community-driven Python package for processing and analyzing human neurophysiological data.
 - **[Mogan Research](https://github.com/MoganLab/mogan)** — Scientific publication and document editing platform.
 
 ---
 
-### Featured Personal Projects
+### Selected Projects
 
-| Project | Description | Tech Stack |
-|:---|:---|:---|
-| **[VirtualCLab-Neural](https://github.com/adi-coderr/VirtualCLab-Neural)** | AI-assisted virtual chemistry lab with reaction analysis & stoichiometry engine | `Python` `PyTorch` `Deep Learning` |
-| **[Integritas](https://github.com/adi-coderr/Integritas)** | Real-time concrete pavement crack segmentation & live inspection studio | `PyTorch` `UNet` `VGG-16` `CV` |
-| **[KshirTrack](https://github.com/adi-coderr/KshirTrack)** | Real-time IoT cold-chain preservation & quality telemetry for smart chilling cans | `ESP32` `C++` `IoT` `Hardware` |
+- **[Integritas](https://github.com/adi-coderr/Integritas)** — Real-time concrete pavement crack segmentation studio with a UNet/VGG-16 architecture built in PyTorch.
+- **[VirtualCLab-Neural](https://github.com/adi-coderr/VirtualCLab-Neural)** — Chemistry simulation engine featuring reaction analysis, stoichiometry verification, and synthesis literature indexing.
+- **[KshirTrack](https://github.com/adi-coderr/KshirTrack)** — Embedded IoT cold-chain preservation and quality telemetry system built on ESP32 with digital sensor arrays.
 
 ---
 
