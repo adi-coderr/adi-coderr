@@ -60,12 +60,10 @@ Software developer and open-source contributor focused on systems programming, a
 <!-- PR-STATS:START -->
 | Repository | Merged | Open |
 |:-----------|-------:|-----:|
-| [kptdev/kpt](https://github.com/kptdev/kpt) | [7](https://github.com/kptdev/kpt/pulls?q=is:pr+author:adi-coderr+is:merged) | [1](https://github.com/kptdev/kpt/pulls?q=is:pr+author:adi-coderr+is:open) |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 0 | [4](https://github.com/ArduPilot/ardupilot/pulls?q=is:pr+author:adi-coderr+is:open) |
-| [mne-tools/mne-python](https://github.com/mne-tools/mne-python) | [2](https://github.com/mne-tools/mne-python/pulls?q=is:pr+author:adi-coderr+is:merged) | 0 |
-| [ArduPilot/MethodicConfigurator](https://github.com/ArduPilot/MethodicConfigurator) | [1](https://github.com/ArduPilot/MethodicConfigurator/pulls?q=is:pr+author:adi-coderr+is:merged) | 0 |
+| [kptdev/kpt](https://github.com/kptdev/kpt) | 0 | [1](https://github.com/kptdev/kpt/pulls?q=is:pr+author:adi-coderr+is:open) |
 | [MoganLab/mogan](https://github.com/MoganLab/mogan) | 0 | [1](https://github.com/MoganLab/mogan/pulls?q=is:pr+author:adi-coderr+is:open) |
-| **Total** | **[10](https://github.com/search?q=is:pr+author:adi-coderr+is:merged&type=pullrequests)** | **[6](https://github.com/search?q=is:pr+author:adi-coderr+is:open&type=pullrequests)** |
+| **Total** | **0** | **[6](https://github.com/search?q=is:pr+author:adi-coderr+is:open&type=pullrequests)** |
 <!-- PR-STATS:END -->
 
 ---
